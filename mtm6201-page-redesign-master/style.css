@@ -1,0 +1,376 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=DM+Serif+Display&family=Quicksand:wght@300&display=swap');
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/***************************** MY STYLES *****************************/
+
+/************************************ FOR SCREENS UNDER 600PX ************************************/
+@media only screen and (max-width: 600px) {
+
+    
+    /******* NAV - This is the nav section. I changed the colors, fonts, and display property to create a more familar layout to users *******/
+
+    body nav#nav.nav{
+        background-color: #0A3658;
+        font-family: 'Abril Fatface', cursive;
+        display: flex;
+        width: 100%;
+        max-width: 1200px;
+        padding: 0;
+        border: none;
+    }
+
+    .nav a{
+        color: blanchedalmond;
+        
+    }
+
+    .nav a .nav-link{
+        font-weight:100;
+    }
+
+
+    /********* HOME - This is the hello section.  I changed colors, fonts as well as changed to styling using padding. This adds more white space for the viewers*********/
+
+    .main #home{
+        background-color: #77c7ce;
+        font-family: 'Quicksand', sans-serif;
+        border: black;
+        padding: 100px 20px;
+    }
+
+    h1{
+        font-family: 'Abril Fatface', cursive;
+        padding-bottom: 20px;
+    }
+
+    /********* ABOUT - This is the about section. I changed colors, fonts, and the image size so viewers on small screens can view the handsome website owner *********/
+
+    .main #about{
+        background-color: blanchedalmond;
+        font-family: 'Quicksand', sans-serif;
+        color: black;
+        font-size: 1.5rem;
+        
+    }
+
+    h2{
+        font-family: 'Abril Fatface', cursive;
+        padding-bottom: 20px;
+    }
+
+    .about p{
+        padding: 20px;
+    }
+
+    .about .about-image{
+        float: none;
+        width: 450px;
+        
+    }
+
+    /********* CONTACT - This is the contact section. I changed colors, fonts and the display property *********/
+
+    .contact#contact{
+        background-color: #a3c3ca;
+        font-family: 'Quicksand', sans-serif;
+        font-size: 1.5rem;
+        display: grid;
+        
+    }
+
+    .contact p{
+        padding: 30px;
+    }
+
+    /********* FORM - This is the form section. I changed the button styling, fonts, colors, and spacing to create a more visually apealing layout *********/
+
+    .contact .contact-form{
+        width: 400px;
+        background-color: #cbe9f1;
+    }
+
+   .contact .contact-form-input{
+       margin-left: -10px;
+       margin-top: 5px;
+       margin-bottom: 5px;
+   }
+
+   .contact .contact-form-label{
+       margin: 5px;
+   }
+
+   .contact .contact-form button{
+        background-color: #0A3658;
+        border: none;
+        color: blanchedalmond;
+        padding: 5px 15px;
+        text-align: center;
+        text-decoration: none;
+    }
+    
+    /********* FOOTER - This is the footer section. I changed spacing, fonts, and colors, to macth the color pallet for the website*********/
+
+    body footer{
+        background-color: #0A3658;
+        font-family: 'Quicksand', sans-serif;
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 15px;
+    }
+
+    body footer p{
+        color: blanchedalmond;
+    }
+}
+
+
+/************************************ FOR SCREENS OVER 601PX ************************************/
+
+@media only screen and (min-width: 601px) {
+    
+    /******* NAV - This is the nav section. I changed the colors, fonts, and display property to create a more familar layout to users *******/
+
+    body nav#nav.nav{
+        background-color: #0A3658;
+        font-family: 'Abril Fatface', cursive;
+        display: flex;
+        width: 100%;
+        max-width: 1200px;
+        padding: 0;
+        border: none;
+    }
+
+    .nav a{
+        color: blanchedalmond;
+    }
+
+    /********* HOME - This is the hello section.  I changed colors, fonts as well as changed to styling using padding. This adds more white space for the viewers*********/
+
+    .main #home{
+        background-color: #77c7ce;
+        font-family: 'Quicksand', sans-serif;
+        border: black;
+        padding: 100px 40px;
+    }
+    
+    h1{
+        font-family: 'Abril Fatface', cursive;
+        padding-bottom: 10px;
+    }
+
+    /********* ABOUT - This is the about section. I changed colors, fonts, and the image size so viewers on small screens can view the handsome website owner *********/
+
+    .main #about{
+        background-color: blanchedalmond;
+        font-family: 'Quicksand', sans-serif;
+        color: black;
+        font-size: 1.5rem;
+    }
+
+    h2{
+        font-family: 'Abril Fatface', cursive;
+    }
+
+    .main #about p{
+        padding: 20px;
+    }
+
+
+    
+    /********* CONTACT - This is the contact section. I changed colors, fonts and the display property *********/
+
+    .contact#contact{
+        background-color: #a3c3ca;
+        font-family: 'Quicksand', sans-serif;
+        font-size: 1.5rem;
+        display: grid;
+        width: 100%;
+        flex-direction: row;
+        align-items: stretch;
+    }
+
+    .contact#contact h2{
+        padding: 20px 20px 0px 20px;
+        justify-content: flex-end;
+    }
+
+    .contact#contact p{
+        padding: 30px 50px;
+        align-self: flex-end;
+    }
+
+
+    /********* FORM - This is the form section. I changed the button styling, fonts, colors, and spacing to create a more visually apealing layout *********/
+
+    .contact .contact-form{
+        width: 500px;
+        padding-left: -20px;
+        background-color: #cbe9f1;
+    }
+    
+    .contact .contact-form-input{
+        margin-left: -10px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+    .contact .contact-form-label{
+        margin: 5px;
+    }
+
+    .contact .contact-form button{
+        background-color: #0A3658;
+        border: none;
+        color: blanchedalmond;
+        padding: 5px 15px;
+        text-align: center;
+        text-decoration: none;
+    }
+
+    /********* FOOTER - This is the footer section. I changed spacing, fonts, and colors, to macth the color pallet for the website*********/
+
+    body footer{
+        background-color: #0A3658;
+        font-family: 'Quicksand', sans-serif;
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+    body footer p{
+        padding: 10px;
+        color: blanchedalmond;
+    }
+}
+
+/************************************ FOR SCREENS OVER 750PX ************************************/
+
+@media only screen and (min-width: 750px){
+
+    /********* HOME - This is the hello section. I changed the form padding gradually for seamless transitions *********/
+
+    .main #home{
+        background-color: #77c7ce;
+        font-family: 'Quicksand', sans-serif;
+        border: black;
+        padding: 100px 50px;
+    }
+
+    /********* CONTACT - This is the contact section. I changed the width of the form gradually for added seamless transitions *********/
+
+    .contact .contact-form{
+        width: 600px;
+        padding-left: -20px;
+    }
+
+    .contact#contact p{
+        padding: 30px 70px;
+        
+    }
+}
+
+/************************************ FOR SCREENS OVER 900PX ************************************/
+
+@media only screen and (min-width: 900px){
+
+    /********* HOME - This is the hello section. I changed the form padding gradually for seamless transitions *********/
+
+    .main #home{
+        background-color: #77c7ce;
+        font-family: 'Quicksand', sans-serif;
+        border: black;
+        padding: 100px 60px;
+    }
+
+    /********* CONTACT - This is the contact section. I changed the width of the form gradually for added seamless transitions *********/
+
+    .contact .contact-form{
+        width: 700px;
+        padding-left: -20px;
+    }
+
+    .contact#contact p{
+        padding: 30px 90px;  
+    }
+
+}
+
+/************************************ FOR SCREENS OVER 1005PX ************************************/
+
+@media only screen and (min-width: 1005px){
+
+    /********* HOME - This is the hello section. I changed the form padding gradually for seamless transitions *********/
+
+    .main #home{
+        background-color: #77c7ce;
+        font-family: 'Quicksand', sans-serif;
+        border: black;
+        padding: 100px 70px;
+    }
+
+    
+    /********* CONTACT - This is the contact section. I changed the width of the form gradually for added seamless transitions *********/
+
+    .contact{
+        margin-top: -50px;
+    }
+
+    .contact .contact-form{
+        width: 800px;
+        padding-left: -20px;
+    }
+
+    .contact#contact p{
+        padding: 30px 100px;
+    }
+}

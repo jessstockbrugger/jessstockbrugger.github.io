@@ -5,32 +5,50 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Landing Page Assignment</title>
+    <link rel="stylesheet" href="styles.css">
+
 </head>
 <body>
     <main>
-        <img src="images/logo/logo.png" alt="image of logo">
-        <h1>Want to be your own boss?</h1>
-        <p>Start today and make up to $30/hr driving your own vehicle with Dash!</p>
-        <img src="images/bg-image/scooter.svg" alt="Person on scooter">
+        <div>
+             <div class="logo"> 
+                <img src="images/logo/logo-120.png" id="logo" alt="image of logo">
+                </div>
+                <h1>Want to be your own boss?</h1>
+                <p class="start-today">Start today and make up to $30/hr driving your own vehicle with Dash!</p>
+                <div class="bg-image">
+                <img src="images/bg-image/scooter.svg" class="scooter" alt="Person on scooter">
+            </div>
+           
+        </div>
         <form> 
             <h2>Apply Now</h2>
-            <p>Enter your info below</p>
-            <input type="text" id="fname" name="fname" value="First name"><br>
-            <input type="text" id="lname" name="lname" value="Last name"><br>
+            <p>Enter your info below.</p>
+            <input type="text" id="first" name="fname" value="First name"><br>
+            <input type="text" id="last" name="lname" value="Last name"><br>
             <input type="tel" id="phone" name="phone" value="Phone number"><br>
             <input type="email" id="email" name="email" value="Email Address"><br>
+            <input type="checkbox" class="checkbox">
+            <p class="form-agree">I agree to dash terms</p>
+            <button class="drive" type="button" value="Calculate">DRIVE WITH US</button><br>
+            <p>Already applied? <a href="https://www.w3schools.com">Check your applicatin status here</a></p>
         </form>
     </main>
     <footer> 
-        <p>See how much you can earn with Dash.</p>
-        <p>how many hours do you want to drive with us this week?</p>
-        <input type="text" id="fname" name="fname" value="Hours"><br>
-        <input type="text" id="lname" name="lname" value="City"><br>
-        <button type="button" value="Calculate">Calculate</button><br>
-        <img src="images/icons/facebook.svg" alt="facebook logo">
-        <img src="images/icons/instagram.svg" alt="instagram icon">
-        <img src="images/icons/linkedin.svg" alt="linkedin icon">
-        <img src="images/icons/twitter.svg" alt="twitter icon">
+        <p class="dash">See how much you can earn with Dash.</p>
+        <p class="hours">how many hours do you want to drive with us this week?</p>
+        <form class="footer-form">
+            <input type="text" id="hours" name="fname" value="Hours">
+            <input type="text" id="city" name="lname" value="City">
+            <button class="calculate" type="button" value="Calculate">Calculate</button><br>
+         </form><br>
+         <div class="icons">
+            <img src="images/icons/facebook.svg" alt="facebook logo">
+            <img src="images/icons/instagram.svg" alt="instagram icon">
+            <img src="images/icons/linkedin.svg" alt="linkedin icon">
+            <img src="images/icons/twitter.svg" alt="twitter icon">
+         </div>
+        
         
     </footer>
 

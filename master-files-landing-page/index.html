@@ -11,13 +11,15 @@
 <body>
     <main>
         <div>
-             <div class="logo"> 
+            <div class="logo"> <!-- Div class="logo" was created to allow desinger to section all main text was logo -->
                 <img src="images/logo/logo-120.png" id="logo" alt="image of logo">
                 </div>
-                <h1>Want to be your own boss?</h1>
-                <p class="start-today">Start today and make up to $30/hr driving your own vehicle with Dash!</p>
-                <div class="bg-image">
-                <img src="images/bg-image/scooter.svg" class="scooter" alt="Person on scooter">
+                <div class="text">
+                    <h1>Want to be your own boss?</h1>
+                    <p class="start-today">Start today and make up to $30/hr driving your own vehicle with Dash!</p>
+                    <div class="bg-image">
+                    <img src="images/bg-image/scooter.svg" class="scooter" alt="Person on scooter" srcset="images/bg-image/scooter-300.png 400w, images/bg-image/scooter-760.png 800w" sizes="(min-width: 300px) 25vw, (min-width: 700px) 50vw, (mid-width: 900px) 100vw"> <!-- srcset was used to allow responsivity to all images used on website by choosing the correct photo for the correct screen width -->
+                </div> 
             </div>
            
         </div>
@@ -31,7 +33,7 @@
             <input type="checkbox" class="checkbox">
             <p class="form-agree">I agree to dash terms</p>
             <button class="drive" type="button" value="Calculate">DRIVE WITH US</button><br>
-            <p>Already applied? <a href="https://www.w3schools.com">Check your applicatin status here</a></p>
+            <p class="already-applied">Already applied? <a href="https://www.google.com">Check your applicatin status here</a></p> <!-- a tag was used to create a link in order to view a customers application status -->
         </form>
     </main>
     <footer> 
@@ -41,15 +43,13 @@
             <input type="text" id="hours" name="fname" value="Hours">
             <input type="text" id="city" name="lname" value="City">
             <button class="calculate" type="button" value="Calculate">Calculate</button><br>
-         </form><br>
-         <div class="icons">
+        </form><br>
+        <div class="icons"> <!-- class="icons" was used to create a flexbox container for all icons during css styling -->
             <img src="images/icons/facebook.svg" alt="facebook logo">
             <img src="images/icons/instagram.svg" alt="instagram icon">
             <img src="images/icons/linkedin.svg" alt="linkedin icon">
             <img src="images/icons/twitter.svg" alt="twitter icon">
          </div>
-        
-        
     </footer>
 
 </body>

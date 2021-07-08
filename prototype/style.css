@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+
+body{
+    background-image: url("img/ice_cream_shop_1500.jpg");
+    background-repeat: no-repeat;
+}
+
+nav{
+    background-color: #d5d5d5;
+    display: flex;
+    font-family: 'Poiret One', cursive;
+}
+
+nav p{
+    padding-left: 30px;
+}
+
+img{
+    
+    
+}

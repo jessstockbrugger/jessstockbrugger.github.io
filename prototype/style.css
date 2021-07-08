@@ -9,6 +9,15 @@ nav{
     background-color: #d5d5d5;
     display: flex;
     font-family: 'Poiret One', cursive;
+    font-size: 20px;
+    border-radius: 15px;
+    width: 450px;
+}
+
+i{
+    padding-top: 14px;
+    padding-left: 30px;
+    font-size: 1.5rem;
 }
 
 nav p{

@@ -11,16 +11,30 @@
 <body>
     
     <nav> 
-        <p>Menu</p>
-        <p>Contact</p>
-        <p>Locations</p>
-        <p>Services</p>
-        <i class="fas fa-search"></i>
+        <a href="#Menu">Menu </a>
+        <a href="#Contact">Contact</a>
+        <a href="#Location">Location</a>
+        <a href="#Service">Service</a>
+        <div class="icon"><i class="fas fa-search"></i></div>
 
     </nav>
     
-    <img src="img/logo_300.png" alt="photo of ice cream shop logo">
+    <div class="logo">
+        <img src="img/logo_300.png" alt="photo of ice cream shop logo">
+    </div>
+    
     <!-- <img src="img/ice_cream_shop_1500.jpg" alt="photo of ice cream shop"> -->
+    <img
+        srcset="img/ice_cream_shop_300 300w
+                img/ice_cream_shop_700 500w
+                img/ice_cream_shop_700 700w
+                img/ice_cream_shop_1000 1000w
+                img/ice_cream_shop_1500 1500w"
+        sizes="(min-width: 300px) 50vw, 100vw"
+        src="img/ice_cream_shop_500.jpg"
+        alt="photo of ice cream shop image"
+        class="background-img"
+    >
     
 
 

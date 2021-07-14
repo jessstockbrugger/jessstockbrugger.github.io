@@ -50,9 +50,7 @@ table {
 }
 
 /********************** MY STYLE **********************/
-@keyframes scale {
-    50% {transform: scale(.7); }
-}
+
 
 a{
     color: black;
@@ -67,7 +65,7 @@ a:visited{ /* a:visited was used to add some added usability */
 }
 
 a:hover{ /* a:hover was used to add some animaion and added usability */
-    color: rgb(95, 158, 160);
+    color: cadetblue;
     transition: 1s .7s;
     animation-name: scale;
     animation-duration: 1.5s;
@@ -144,3 +142,6 @@ footer{
 
 }
 
+@keyframes scale {
+    50% {transform: scale(.7); }
+}

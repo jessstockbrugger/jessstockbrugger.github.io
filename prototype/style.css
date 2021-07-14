@@ -65,7 +65,12 @@ nav{
     font-family: 'Poiret One', cursive;
     max-width: 280px;
     height: 30px;
-    margin-right:-30px;
+    margin-left: 20px;
+    margin-top: 20px;
+    padding-top: 5px;
+    font-size: 20px;
+    border-radius: 15px;
+    width: 450px;
 }
 
 body{
@@ -73,12 +78,8 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     background-color: #d5d5d5;
+    font-family: 'Poiret One', cursive;
     
-    
-}
-
-.icon{
-    display: none;
 }
 
 img{
@@ -123,8 +124,8 @@ footer{
 
     .logo{
         background-color: seashell;
-        display: flex;
-        justify-content: flex-end;
+        /* display: flex;
+        justify-content: flex-end; */
     }
 
     

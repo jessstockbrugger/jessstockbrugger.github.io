@@ -10,32 +10,34 @@
 </head>
 <body>
     
-    <nav> 
-        <a href="index.html">Menu </a>
-        <a href="contact.html">Contact</a>
-        <a href="location.html">Location</a>
-        <a href="#Service">Service</a>
-        <div class="icon"><i class="fas fa-search"></i></div>
+    <div class="main">
+        <nav> 
+            <a href="index.html">Menu </a>
+            <a href="contact.html">Contact</a>
+            <a href="location.html">Location</a>
+            <a href="#Service">Service</a>
+            <!-- <div class="icon"><i class="fas fa-search"></i></div> -->
 
-    </nav>
-    
-    <div class="logo">
-        <img src="img/logo_300.png" alt="photo of ice cream shop logo">
+        </nav>
+        
+        <!-- <div class="logo">
+            <img src="img/logo_300.png" alt="photo of ice cream shop logo">
+        </div> -->
+        
+        <!-- <img src="img/ice_cream_shop_1500.jpg" alt="photo of ice cream shop"> -->
+        <img
+            srcset="img/ice_cream_shop_300 300w
+                    img/ice_cream_shop_700 500w
+                    img/ice_cream_shop_700 700w
+                    img/ice_cream_shop_1000 1000w
+                    img/ice_cream_shop_1500 1500w"
+            sizes="(min-width: 300px) 50vw, 100vw"
+            src="img/ice_cream_shop_500.jpg"
+            alt="photo of ice cream shop image"
+            class="background-img"
+        >
     </div>
-    
-    <!-- <img src="img/ice_cream_shop_1500.jpg" alt="photo of ice cream shop"> -->
-    <img
-        srcset="img/ice_cream_shop_300 300w
-                img/ice_cream_shop_700 500w
-                img/ice_cream_shop_700 700w
-                img/ice_cream_shop_1000 1000w
-                img/ice_cream_shop_1500 1500w"
-        sizes="(min-width: 300px) 50vw, 100vw"
-        src="img/ice_cream_shop_500.jpg"
-        alt="photo of ice cream shop image"
-        class="background-img"
-    >
-    
+
     <footer> 
         &copy; Jessica Stockbrugger
     </footer>

@@ -57,8 +57,10 @@ body{
     /* margin-left: 10px;
     margin-right: 10px; */
         
-        
-    
+}
+
+.main{
+    margin-bottom: 40px;
 }
 
 img{
@@ -82,13 +84,7 @@ a{
     text-align: center;
 }
 
-.icon{
-    display: flex;
-    padding-top: 5px;
-    padding-bottom: 3px;
-    padding-left: 15px;
-    justify-content: flex-end;
-}
+
 
 form{
     background-color: #b9d2d9;
@@ -124,4 +120,39 @@ footer{
     bottom: 0;
     padding: 5px 5px 5px 5px;
     width: 100%;
+    margin-top: 20px;
+}
+
+@media (min-width: 400px){
+
+    nav{
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+
+
+
+}
+
+@media (min-width: 545px){
+
+    nav{
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+
+
+
+}
+
+@media (min-width: 600px){
+
+    nav{
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 10px;
+    }
+
+
+
 }

@@ -54,9 +54,6 @@ table {
 body{
     background-color: #d5d5d5;
     font-family: 'Poiret One', cursive;
-    /* margin-left: 10px;
-    margin-right: 10px; */
-        
 }
 
 .main{
@@ -75,7 +72,7 @@ nav{
 }
 
 a{
-    text-decoration: none;
+    text-decoration: none; /* text-decoration none was used to increase visual appeal and to remove line from under each link */
     color: black;
     padding-top: 3px;
     padding-bottom: 5px;
@@ -84,21 +81,31 @@ a{
     text-align: center;
 }
 
+a:visited{ /* a:visited was used to add some added usability */
+    color: blue;
+}
 
+a:hover{ /* a:hover was used to add some animaion and added usability */
+    color: cadetblue;
+    transition: 1s .7s;
+}
 
 form{
     background-color: #b9d2d9;
     margin-top: 10px;
     border-radius: 15px;
     padding-left: 12px;
-    padding-right: 20px;
-    margin-left: 10px;
-    margin-right: 10px; 
+    padding-right: 30px;
+    margin-left: 10px; 
+    margin-right: 10px; /* margin-left and margin-right was used to keep form centered */
+
+    
 }
+
 
 h2{
     padding-top: 10px;
-    
+    font-weight: bold;
     margin-bottom: 10px;
     font-size: 20px;
 }
@@ -106,46 +113,63 @@ h2{
 input{
     width: 100%;
     margin-bottom: 7px;
+    border: none;
+    padding: 10px 10px 10px 10px;
+    border-radius: 5px; /* border-radius was used to add design and visual appeal */
+    font-family: 'Poiret One', cursive;
 }
 
+
 button{
-   
+   border-radius: 3px; /* border-radius was used to add design and visual appeal */
+   padding: 5px 7px 5px 5px;
    margin-bottom: 10px;
    margin-top: 10px;
+   border: none;
+   font-family: 'Poiret One', cursive;
 }
 
 footer{
     background-color: #b9d2d9;
-    position: fixed;
+    position: fixed; /* fixed position was used to fix footer at the bottom of the page  */
     bottom: 0;
     padding: 5px 5px 5px 5px;
     width: 100%;
     margin-top: 20px;
 }
 
-@media (min-width: 400px){
+@media (min-width: 400px){ /* media queries were added to increase the visual appeal of nav bar  */
+
 
     nav{
         padding-top: 5px;
         padding-bottom: 5px;
     }
 
-
+    a{
+        font-size: 20px;
+    }
 
 }
 
-@media (min-width: 545px){
+@media (min-width: 545px){ /* media queries were added to increase the visual appeal of nav bar  */
+
 
     nav{
         padding-top: 5px;
         padding-bottom: 5px;
     }
 
-
+    a{
+        font-size: 23px;
+        padding-left: 20px;
+    }
 
 }
 
-@media (min-width: 600px){
+
+@media (min-width: 600px){ /* media queries were added to increase the visual appeal of nav bar  */
+
 
     nav{
         padding-top: 10px;
@@ -153,6 +177,10 @@ footer{
         padding-left: 10px;
     }
 
+    a{
+        font-size: 25px;
+        padding-left: 30px;
+    }
 
 
 }

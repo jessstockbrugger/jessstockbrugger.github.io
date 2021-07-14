@@ -88,6 +88,9 @@ a:visited{ /* a:visited was used to add some added usability */
 a:hover{ /* a:hover was used to add some animaion and added usability */
     color: cadetblue;
     transition: 1s .7s;
+    animation-name: scale;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
 }
 
 form{
@@ -183,4 +186,8 @@ footer{
     }
 
 
+}
+
+@keyframes scale {
+    50% {transform: scale(.7); }
 }

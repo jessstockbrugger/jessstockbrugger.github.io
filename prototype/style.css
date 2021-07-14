@@ -50,6 +50,9 @@ table {
 }
 
 /********************** MY STYLE **********************/
+@keyframes scale {
+    50% {transform: scale(.7); }
+}
 
 a{
     color: black;
@@ -64,20 +67,22 @@ a:visited{ /* a:visited was used to add some added usability */
 }
 
 a:hover{ /* a:hover was used to add some animaion and added usability */
-    color: cadetblue;
-    transition: 1s .7s;
+    color: rgb(95, 158, 160);
+    
+    animation-name: scale;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
 }
 
 
 nav{
     background-color: #d5d5d5;
-    display: flex;
     font-family: 'Poiret One', cursive;
     max-width: 280px;
     height: 30px;
     margin-left: 10px;
     margin-top: 10px;
-    padding-top: 5px;
+    padding-top: 15px;
     font-size: 20px;
     border-radius: 15px;
     width: 450px;
@@ -138,3 +143,4 @@ footer{
 
 
 }
+

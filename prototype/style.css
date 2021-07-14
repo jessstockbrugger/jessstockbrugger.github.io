@@ -68,7 +68,7 @@ a:visited{ /* a:visited was used to add some added usability */
 
 a:hover{ /* a:hover was used to add some animaion and added usability */
     color: rgb(95, 158, 160);
-    
+    transition: 1s .7s;
     animation-name: scale;
     animation-duration: 1.5s;
     animation-iteration-count: infinite;

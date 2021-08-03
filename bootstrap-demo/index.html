@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    
+</head>
+<body>
+    
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Navbar</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+
+    <div class="container mb-4">
+        <div class="row">
+           <div class="col">
+               <h1>Welcome to all things Bootstrap!</h1>
+               <p>Bootstrap is a framework that was created to help keep consistency and ease while creating responsive mobile frist webites. It was created by Mark Otto and Jacob Thornton at Twitter as a way to reduce the amount of inconsistencies within layouts and create a "one stop shop" for anything coding related! The beauty of this framework is that it is not only open source for anyone to access, but it has plenty of instuctions and explinations on how to use each component of bootstrap and has plenty of guides to help new users. All in all, Bootstrap is AMAZING!! </p>
+           </div>
+           
+
+
+        </div>
+
+        <div class="row"> 
+            <h2>Some of the Perks</h2>
+            <div class="col-sm-12 col-md-6 col-lg-4">
+                <h4>Moblie First</h4>
+                <p>Bootstrap is a framework desinged to aid in creating mobile first responsive layouts. This means that while adding broostrap components and elements into ones HTML we are able to manipulate these compenents adn elements due to a flex-box grid and a 12 column system. These systems have a number of classes that aid in creating the ideal layout for every webiste.  </p>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-4">
+                <h4>Pre-coded CSS and Javascript</h4>
+                <p>Bootsrap has a very powerful amount of pre-coded CSS and Javascrpit that is added to any code when adding any HTML component to ones code. By using specific classes we can activate certain other CSS and Javascript propoerties that can add different visual apeal to to any cde that will aid in creating layouts of all kinds!</p>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-4">
+                <h4>Layouts</h4>
+                <p>Bootstrap has a build in layout system that has a number of elemets such as gutter width, breakpoints, columns, rows, etc. These all aid in the creation of seamless layouts in order to get the desiered design required. These can be activated by useing very specific classes with some added number to make minor specifications of certain elements. </p>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-12">
+                <h4>Helper options</h4>
+                <p>These options have been added to aid in more designing creative layouts with using and help by giving instruction on each seperate element. Each of these have a specific class that is used to activate them as well as other classes can be used to at styling to each element.</p>
+            </div>
+        </div>
+
+
+
+
+        <div class="row">
+            <div class="col">
+                <h2>Bootstrap Components</h2>
+                <p>Bootstrap components are a variety of elementsthat can be added to you HTML layouts to add more visul interest and aid is a variety of ways. </p>
+
+                <h4>Accordian</h4>
+                <div class="col-6">
+                    <div class="accordion" id="accordionExample">
+                        <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingOne">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            Example #1
+                            </button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                            <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.<br>
+                            The accordion is an component that can be added to any html to help make displaying information much more user friendly and take up much less space! this sectin is he first "body item" that will be displayed. By clicking on the botton that says "Example #1" This body with either be displayed or removed. 
+                            </div>
+                        </div>
+                        </div>
+                        <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            Accordion Item #2
+                            </button>
+                        </h2>
+                        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                            <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                            </div>
+                        </div>
+                        </div>
+                        <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            Accordion Item #3
+                            </button>
+                        </h2>
+                        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                            <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                
+            
+
+            </div>
+        </div>
+
+
+
+
+        <div class="row py-5"> LARGE SLIDDING IMAGE BAR
+        </div>
+        <div class="row">EXPLORE OUR PROGRAMS AND COURSES</div>
+        <div class="row">
+            
+            <div class="col-4">programs A-Z</div>
+            <div class="col-4">Areas of interest</div>
+            <div class="col-4">Campus</div>
+        </div>
+        <div class="row py-5">
+            
+            <div class="col-4">News</div>
+            <div class="col-4">Important Dates</div>
+            <div class="col-4">AC Events</div>
+        </div>
+        <div class="row py-5">
+            <div class="offset-7 col-5">col-5</div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-6 col-lg-8">1</div>
+            <div class="col-md-6 col-lg-4">2</div>
+        </div>
+    </div>
+
+    <div class="bridge">
+        <div class="container">
+            <dic class="row py-5">
+                <div class="offset-7 col-5">col-5</div>
+            </dic>
+        </div>
+
+    </div>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>

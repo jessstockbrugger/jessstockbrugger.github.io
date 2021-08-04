@@ -86,9 +86,10 @@
            
             <h2>Bootstrap Components</h2>
             <p>Bootstrap components are a variety of elementsthat can be added to you HTML layouts to add more visul interest and aid is a variety of ways. </p>
-            <div class="col-6">
+            <div class="col-m-12 col-lg-6">
                 <h4>Accordian</h4>
-                <div class="col-6">This accordion has explinations within each item body regaurding this component. Please go to each item to get more information reguarding this Bootstrap component. </div>
+
+                <div class="col">This accordion has explinations within each item body regaurding this component. Please go to each item to get more information reguarding this Bootstrap component. </div>
                 <div class="col">
                     <div class="accordion" id="accordionExample">
                         <div class="accordion-item">
@@ -133,11 +134,11 @@
                 </div>
             </div>
                 
-            <div class="col-6">
+            <div class="col-m-12 col-lg-6">
                     <h4>Cards</h4>
                     <p>Bootstrap Cards are components are a combination of HTML and CSS that can be added to nay code. These cards can be used for a number of reasons like showing a wuick view of  alink to other pages, showing members of a team of any kind and overall displaying a "teaser" of information about any given topic.</p>
                     <div class="card" style="width: 18rem;">
-                        <img src="img/bootstrap-image.jpg" class="card-img-top" alt="image of nature taken from unsplash as an example">
+                        <img src="img/bootstrap-img-example.jpg" class="card-img-top" alt="image of nature taken from unsplash as an example">
                         <div class="card-body">
                           <h5 class="card-title">Nature Card</h5>
                           <p class="card-text">This is a bootstrap card. This card can be added to any CSS to add visual appeal and user ease. Cards can be used for multiple reason such as in a "Meet the Team Page" as a quick quick view to allow users to get a teaser view on a specific page adn so much more</p>
@@ -146,9 +147,9 @@
                       </div>                     
                     </div>
             </div>
-            <div class="col-6">
+            <div class="col">
                 <h4>Badges</h4>
-                <p>This bootstrap component is very cool! This adds </p>
+                
                 <button type="button" class="btn btn-primary position-relative">
                 Inbox
                     <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
@@ -156,15 +157,100 @@
                     <span class="visually-hidden">unread messages</span>
                     </span>
                 </button>
+                <p>This bootstrap component is very cool! This badge allows a user to be be to see that there is some sort of unopened notification. This particular option shows the number of unopened notifications on the top right corner of a button. Thisnis done by using code supplied by bootstrap to position the badge, shape the badge and change the color of the badge.</p>
             </div>
-            <div class="col-6">
+            <div class="col">
                 <h4>Alerts</h4>
                 <div class="alert alert-success" role="alert">
                     <h4 class="alert-heading">Well done!</h4>
-                    <p>Aww yeah, you successfully read this important alert message. This example text is going to run a bit longer so that you can see how spacing within an alert works with this kind of content.</p>
+                    <p> This is an Alert that can be added to any code useing Bootstrap. This component allows for users to get visual feedback for a task that was succesfully accomplished on a webiste. This component can be eddited by using Bootsrap CSS. This is very useful for users becuase they can get visual feedback n what they are doing and or trying to do on a site. 
+                    </p>
                     <hr>
-                    <p class="mb-0">Whenever you need to, be sure to use margin utilities to keep things nice and tidy.</p>
+                    <p class="mb-0">There can be other added <code>paragraph</code> tags to add more information regaurding the Alert</p>
+            </div>
+            <div class="col">
+                <h4>Drop Down</h4>
+                
+                <div class="dropdown">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                      Dropdown button
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                      <li><a class="dropdown-item" href="#">Drop Down Example #1</a></li>
+                      <li><a class="dropdown-item" href="#">Drop Down Example #2</a></li>
+                      <li><a class="dropdown-item" href="#">Drop Down Example #3</a></li>
+                    </ul>
+                  </div>
+                  <p>This bootstrap component is used to offer a visual drop down option to supply links, lists, and more! This component is activated by clicking on the main button which will allow for the button to drop down all other hiden visual links or lists.</p>
               </div>
+            </div>
+           
+            <div class="col">
+                <h4>Tooltips</h4>
+                <p>Tooltips are a very useful Bootsrap component that can be added to nay code. This component is useful for getting some added informatin to the user such as what it is that they are hovering over, what that element requires, or more information about the button or link itself. This will only appear when a user hovers over the element itself and once the cursor is moved away from the button, the tooltip will go away. </p>
+                <button type="button" class="btn btn-secondary" data-bs-toggle="tooltip" data-bs-placement="top" title="This is a Tooltip">
+                    Tooltip will apear when button is hovered over
+                </button>
+                
+                
+            </div>
+            <div>
+                <h4>Collapse</h4>
+                <p>This component has more information reguarding how it works and it's useful purposes by clicking on each link.</p>
+                <p>
+                    <a class="btn btn-primary" data-bs-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">Toggle first element</a>
+                    <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#multiCollapseExample2" aria-expanded="false" aria-controls="multiCollapseExample2">Toggle second element</button>
+                    <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target=".multi-collapse" aria-expanded="false" aria-controls="multiCollapseExample1 multiCollapseExample2">Toggle both elements</button>
+                </p>
+                <div class="row">
+                    <div class="col">
+                      <div class="collapse multi-collapse" id="multiCollapseExample1">
+                        <div class="card card-body">
+                          <strong>Ths is the first item</strong> that will appear once the link to the "Toggle First Element" in clickled. This item is ony acctivated by clicking on the link, not by hovering like in the previous example of "Tooltips". This component is useful when providing extra information about any given topic. How ever this is speacial because if the link to "Toggle both Elements" is clicked this item will also show up.This tem is considered a card (like scene in a previous examples) adn can be edited and manipulated as such using CSS.
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="collapse multi-collapse" id="multiCollapseExample2">
+                        <div class="card card-body">
+                          <strong>This is the second item</strong> that  will be displayed once the relevant link has been activated. This means that same as th frist item, this will only appear when a user physically clicks on the corresponding link. This item will also appear when a user clicks on the link "Toggle both Elements" as that will active both item one and item 2 to appear at the same time. This can be useful wehn trying to provide specific information to a user on any given site. Not only does it allow for specific information to be given based to the desiered button/ link, but i also help the user by only giving them the informaation they require at that moment. Ths can help by not overwhelming a user with to much information they are not looking for.  
+                        </div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <h4>Off Canvas</h4>
+                <a class="btn btn-success" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
+                    Link with href
+                  </a>
+                  <button class="btn btn-success" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
+                    Button with data-bs-target
+                  </button>
+                  
+                  <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+                    <div class="offcanvas-header">
+                      <h5 class="offcanvas-title" id="offcanvasExampleLabel">Offcanvas</h5>
+                      <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                      <div>
+                        This is an Off Canvas component that is extremly powerful. This element can be opened and activated in 2 different ways. #1 by using a link to active and target the Off Canvas element and #2 by using a button to select adn open the Off Canavas element. This is activated by using a combination of CSS, HTML and Javascript.<br> <br>
+                        This very powerful for adding navbars that are hidden unless necessary, providing added information about any given topic on a webiste or having a shopping cart or some sort that will show all information rguarding items, or current purchases on a store site. <br> <br>
+                        This component can have any sort of HTML added to is such as paragraphs headings, images and so much more!
+                      </div>
+                      <div class="dropdown mt-3">
+                        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown">
+                          Dropdown button with Examples
+                        </button>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                          <li><a class="dropdown-item" href="#">Drop Down Example #1</a></li>
+                          <li><a class="dropdown-item" href="#">Drop Down Example #2</a></li>
+                          <li><a class="dropdown-item" href="#">Drop Down Example #3</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
             </div>
         </div>
 

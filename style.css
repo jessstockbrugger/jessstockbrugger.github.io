@@ -1,0 +1,18 @@
+
+/********************* My style ***************************/
+
+body{
+    background-color: #f0f7f4;
+}
+
+nav {
+    background-color: #32292f;
+}
+
+.bg-img{
+    max-width: 100%;
+}
+
+.banner{
+    text-align: center;
+}

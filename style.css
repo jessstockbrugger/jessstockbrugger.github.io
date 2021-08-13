@@ -1,20 +1,91 @@
 
 /********************* My style ***************************/
 
+/******* GENERAL CSS********/
+
 body{
     background-color: #f0f7f4;
 }
 
+footer{
+    background-color: #32292f;
+    color: #f0f7f4;
+    font-size: .7rem;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+footer a:active{
+    color: #f0f7f4;
+}
+
+footer a:visited{
+    color: #f0f7f4;
+}
+
+footer a:hover{
+    color: #5a7684;
+}
+
+/******* NAV ********/
+
 nav {
     background-color: #32292f;
+    height: 100px;
+    padding-top: 30px;
+    color: #f0f7f4;
 }
+
+nav a:link{
+    color: #f0f7f4;
+}
+
+nav a:visited{
+    color: #f0f7f4;
+}
+
+nav a:hover{
+    color: #5a7684;
+}
+
+.search{
+    border-radius: 5px;
+}
+
+
+
+/******* HOME PAGE ********/
 
 .bg-img{
     max-width: 100%;
 }
 
-.banner{
+.bg-img-container{
+    position: relative;
     text-align: center;
+    color: #f0f7f4;
+}
+
+.banner-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+
+.portfolio-button{
+    background-color: #5a7684;
+    color: #f0f7f4;
+}
+
+.portfolio-button-outline{
+    border-color: #5a7684;
+    color: #5a7684;
+}
+.img-gallery{
+    padding: 0px;
+    max-height: 100%;
 }
 
 .services{
@@ -30,21 +101,108 @@ nav {
 
 .pricing{
     background-color: #614834;
+    margin-bottom: 72px;
+    display: flex;
+    justify-content: space-evenly;
 }
 
-footer{
-    background-color: #32292f;
+.pricing-text{
+    background-color: #f0f7f4;
+    color: #614834;
+}
+
+.pricing-img{
+    border-radius: 50%;
+}
+
+.pricing-card{
+    background-color: #614834;
+    border-color: #71e8b2;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 20px;
     color: #f0f7f4;
 }
 
-.portfolio-card{
-    width: 100%
+.pricing-btn{
+    background-color: #614834;
+    border-color: #71e8b2;
 }
 
-.video{
-    max-height: 1063px;
+
+/******* ABOUT ME PAGE ********/
+
+.about-me{
+    margin-top: 72px;
+    margin-bottom: 72px;
+    color: #614834;
+}
+
+.text-center p{
+    vertical-align: middle;
 }
 
 .portrait{
     max-width: 100%;
+    
+}
+
+.awards{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 72px;
+    color: #614834;
+}
+
+.awards-img{
+    border-radius: 50%;
+}
+
+.awards-card{
+    background-color: #f0f7f4;
+    border-color: #f0f7f4;
+    color: #614834;
+}
+
+
+
+
+
+/******* PORTFOLIO PAGE ********/
+
+.portfolio-card{
+    width: 100%;
+    margin-top: 15px;
+    color: #614834;
+}
+
+.portfolio-containter{
+    margin-top: 72px;
+    margin-bottom: 72px;
+}
+
+.portfolio-containter h1{
+    color: #614834;
+}
+
+.portfolio-heading{
+    color: #614834;
+}
+
+a:hover{
+    color: #5a7684;
+}
+
+
+
+/******* CONTACT ME PAGE ********/
+
+.submit{
+    background-color: #f0f7f4;
+    width: 100px;
+}
+
+form{
+    background-color: #5a7684;
+    padding: 15px;
 }

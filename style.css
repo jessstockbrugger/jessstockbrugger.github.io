@@ -16,3 +16,35 @@ nav {
 .banner{
     text-align: center;
 }
+
+.services{
+    margin-top: 72px;
+    margin-bottom: 72px;
+    color: #f0f7f4;
+}
+
+.my-services{
+    padding: 50px;
+    background-color: #5a7684;
+}
+
+.pricing{
+    background-color: #614834;
+}
+
+footer{
+    background-color: #32292f;
+    color: #f0f7f4;
+}
+
+.portfolio-card{
+    width: 100%
+}
+
+.video{
+    max-height: 1063px;
+}
+
+.portrait{
+    max-width: 100%;
+}

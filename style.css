@@ -138,6 +138,12 @@ nav a:hover{
     color: #614834;
 }
 
+.d-flex{
+    
+    align-items: center;
+    
+}
+
 .text-center p{
     vertical-align: middle;
 }
@@ -176,6 +182,18 @@ nav a:hover{
     color: #614834;
 }
 
+.portfolio-card-txt{
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #f0f7f4;
+    opacity: 80%;
+    width: 100%;
+    margin-left: 15px;
+    margin-right: 25px;
+}
+
 .portfolio-containter{
     margin-top: 72px;
     margin-bottom: 72px;
@@ -197,6 +215,12 @@ a:hover{
 
 /******* CONTACT ME PAGE ********/
 
+.contact{
+    margin-top: 72px;
+    margin-bottom: 72px;
+    color: #614834;
+}
+
 .submit{
     background-color: #f0f7f4;
     width: 100px;
@@ -205,4 +229,64 @@ a:hover{
 form{
     background-color: #5a7684;
     padding: 15px;
+    height: 100%;
+}
+
+form input{
+    height: 50px;
+}
+
+form label{
+    font-size: 1.3rem;
+    color: #f0f7f4;
+}
+
+.comments{
+    height: 90px;
+}
+
+.social-media{
+    margin-bottom: 72px;
+    display: flex;
+    justify-content: space-evenly;
+    color: #614834;
+}
+
+.social-media a:active{
+    color: #5a7684;
+}
+
+.social-media a:visited{
+    color: #5a7684;
+}
+
+.social-media a:hover{
+    color: #71e8b2;
+}
+
+.social-media-card{
+    background-color: #f0f7f4;
+    border-color: #f0f7f4;
+}
+
+/******* FAQ's PAGE ********/
+
+.faq{
+    margin-top: 72px;
+    margin-bottom: 72px;
+    color: #614834;
+}
+
+.faq-card{
+    margin-top: 15px;
+}
+
+.heart-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #f0f7f4;
+    opacity: 80%;
+    width: 400px;
 }

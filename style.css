@@ -1,11 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Montserrat:wght@100&display=swap');
+/* 
 
-/********************* My style ***************************/
+font-family: 'Abril Fatface', cursive; 
+font-family: 'Montserrat', sans-serif;
+
+*/
 
 /******* GENERAL CSS********/
 
 body{
     background-color: #f0f7f4;
+    font-family: 'Montserrat', sans-serif;
 }
+h1, h2, h3, h4, h5{
+    font-family: 'Abril Fatface', cursive; 
+}
+
 
 footer{
     background-color: #32292f;
@@ -31,9 +41,12 @@ footer a:hover{
 
 nav {
     background-color: #32292f;
-    height: 100px;
-    padding-top: 30px;
+    height: 120px;
+    padding-top: 40px;
     color: #f0f7f4;
+    font-size: 1.2rem;
+    font-family: 'Abril Fatface', cursive; 
+    
 }
 
 nav a:link{
@@ -50,8 +63,13 @@ nav a:hover{
 
 .search{
     border-radius: 5px;
+    
 }
 
+nav input{
+    display: flex;
+    justify-content: flex-end;
+}
 
 
 /******* HOME PAGE ********/
@@ -113,6 +131,7 @@ nav a:hover{
 
 .pricing-img{
     border-radius: 50%;
+    padding: 20px;
 }
 
 .pricing-card{
@@ -120,8 +139,9 @@ nav a:hover{
     border-color: #71e8b2;
     margin-top: 30px;
     margin-bottom: 30px;
-    padding: 20px;
+    
     color: #f0f7f4;
+    width: 100%;
 }
 
 .pricing-btn{
@@ -136,6 +156,10 @@ nav a:hover{
     margin-top: 72px;
     margin-bottom: 72px;
     color: #614834;
+}
+
+.about-me-txt{
+    margin-top: 20px;
 }
 
 .d-flex{
@@ -180,23 +204,27 @@ nav a:hover{
     width: 100%;
     margin-top: 15px;
     color: #614834;
+    position: relative;
+    text-align: left;
+
 }
 
 .portfolio-card-txt{
     position: absolute;
-    top: 75%;
+    bottom: 0px;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, 0%);
     background-color: #f0f7f4;
     opacity: 80%;
     width: 100%;
-    margin-left: 15px;
-    margin-right: 25px;
+    
 }
+
 
 .portfolio-containter{
     margin-top: 72px;
     margin-bottom: 72px;
+    
 }
 
 .portfolio-containter h1{
@@ -230,6 +258,7 @@ form{
     background-color: #5a7684;
     padding: 15px;
     height: 100%;
+    
 }
 
 form input{
@@ -248,7 +277,7 @@ form label{
 .social-media{
     margin-bottom: 72px;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     color: #614834;
 }
 
